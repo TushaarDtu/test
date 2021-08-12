@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.top
+{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+}
+
+#left{
+    float: left;
+    display: flex;
+    font-size: 16px;
+}
+
+#right{
+    float: right;
+    display: flex;
+}
+
+#blur{
+    opacity: 0.5;
+    margin-left: 0.4rem;
+}
+
+.button{
+    background: #000;
+    color: white;
+    padding: 0.8rem;
+    padding-block: 0.55rem;
+    letter-spacing: 0.7px;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+#mini-top{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 90rem;
+}
+
+#filter{
+    margin: 1rem;
+    margin-top: 3rem;
+    margin-left: 10%;
+    align-items: center;
+    font-family: sans-serif;
+    display: flex;
+}
+
+#list{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.notes{
+    cursor: move;
+    z-index: 9;
+    position: absolute;
+    background: silver;
+    height: 10rem;
+    z-index: 10;
+    width: 10rem;
+}
+
+#add{
+    margin-top: 2.5rem;
+    padding-inline: 0.5rem;
+    padding-block: 0.42rem;
+    float: right;
+    margin-right: 4rem;
+}
